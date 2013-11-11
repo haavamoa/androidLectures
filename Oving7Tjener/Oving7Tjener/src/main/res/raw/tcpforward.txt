@@ -1,0 +1,4 @@
+start tjener først, så klient.
+
+kjør kommand:
+cd /home/haavamoa/android-studio/sdk/platform-tools/ && ./adb -s emulator-5554 forward tcp:12345 tcp:12345

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Answer"
+        android:id="@+id/answer"
+        android:layout_gravity="left|center_vertical"
+        android:layout_x="160dp"
+        android:layout_y="295dp" />
+
+    <EditText
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/number1"
+        android:layout_x="83dp"
+        android:layout_y="185dp" />
+
+    <EditText
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/number2"
+        android:layout_x="218dp"
+        android:layout_y="185dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Tall 1 :"
+        android:id="@+id/textView"
+        android:layout_x="101dp"
+        android:layout_y="175dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Tall 2 :"
+        android:id="@+id/textView2"
+        android:layout_x="229dp"
+        android:layout_y="175dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Svar:"
+        android:id="@+id/textView3"
+        android:layout_x="122dp"
+        android:layout_y="300dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beregn"
+        android:id="@+id/btnBeregn"
+        android:layout_x="151dp"
+        android:layout_y="230dp" />
+</AbsoluteLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Change the color of the list"
+        android:id="@+id/textView"
+        android:layout_gravity="left|center_vertical"
+        android:layout_x="114dp"
+        android:layout_y="151dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/color"
+        android:layout_marginLeft="29dp"
+        android:text="#0000"
+        android:layout_x="155dp"
+        android:layout_y="178dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change it"
+        android:id="@+id/btnChangeColor"
+        android:layout_gravity="left|center_vertical"
+        android:layout_x="143dp"
+        android:layout_y="222dp" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Color examples:"
+        android:layout_x="20dp"
+        android:layout_y="270dp"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="#33CCFF"
+        android:layout_x="20dp"
+        android:layout_y="300dp"
+        android:textColor="#33CCFF"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="#FF6633"
+        android:layout_x="20dp"
+        android:layout_y="320dp"
+        android:textColor="#FF6633"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="##FF3366"
+        android:layout_x="20dp"
+        android:layout_y="340dp"
+        android:textColor="#FF3366"
+        />
+
+</AbsoluteLayout>

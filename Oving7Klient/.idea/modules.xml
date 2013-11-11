@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Oving7Klient.iml" filepath="$PROJECT_DIR$/Oving7Klient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Oving7Klient/Oving7Klient-Oving7Klient.iml" filepath="$PROJECT_DIR$/Oving7Klient/Oving7Klient-Oving7Klient.iml" />
+    </modules>
+  </component>
+</project>
+
